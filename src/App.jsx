@@ -5,7 +5,7 @@ import About from "./components/About/About"
 import Contact from "./components/Contact/Contact"
 import Footer from "./components/Footer/Footer"
 import Education from "./components/Education/Education"
-import Experience from "./components/Experience/Experience"
+// import Experience from "./components/Experience/Experience"
 import Work from "./components/Work/Work"
 
 function App() {
