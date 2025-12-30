@@ -22,8 +22,8 @@ const Footer = () => {
             { name: "About", id: "about" },
             { name: "Skills", id: "skills" },
             // { name: "Experience", id: "experience" },//
-            { name: "Projects", id: "projects" },
-            { name: "Education", id: "education"},
+            { name: "Projects", id: "work" },
+            { name: "Education", id: "education" },
           ].map((item, index) => (
             <button
               key={index}
@@ -38,12 +38,12 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            
+
             // { icon: <FaTwitter />, link: "https://twitter.com/CodingMaster6?s=09" },
             // { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/tarun-kaushik-553b441a4" },
             // { icon: <FaInstagram />, link: "https://www.instagram.com/coding_.master/" },
             // { icon: <FaYoutube />, link: "https://www.youtube.com/codingmasteryt" },
-            
+
           ].map((item, index) => (
             <a
               key={index}

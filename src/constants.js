@@ -116,122 +116,122 @@ export const SkillsInfo = [
   },
 ];
 
-  // export const experiences = [
-  //   {
-  //     id: 0,
-  //     img: webverseLogo,
-  //     role: "Fullstack Developer",
-  //     company: "Webverse Digital",
-  //     date: "April 2024 - Present",
-  //     desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-  //     skills: [
-  //       "HTML",
-  //       "CSS",
-  //       "JavaScript",
-  //       "React JS",
-  //       "TypeScript",
-  //       "Node JS",
-  //       "Tailwind CSS",
-  //       "MongoDb",
-  //       "Redux",
-  //       " Next Js",
-  //     ],
-  //   },
-  //   {
-  //     id: 1,
-  //     img: agcLogo,
-  //     role: "Fullstack Engineer",
-  //     company: "Agumentik Group of Companies",
-  //     date: "July 2023 - March 2024",
-  //     desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-  //     skills: [
-  //       "ReactJS",
-  //       "Redux",
-  //       "JavaScript",
-  //       "Tailwind CSS",
-  //       "HTML",
-  //       "CSS",
-  //       "SQL",
-  //     ],
-  //   },
-  //   {
-  //     id: 2,
-  //     img: newtonschoolLogo,
-  //     role: "Frontend Intern",
-  //     company: "Newton School",
-  //     date: "September 2021 - August 2022",
-  //     desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-  //     skills: [
-  //       "HTML",
-  //       "CSS",
-  //       "Javascript",
-  //       "Bootstrap",
-  //       "Figma",
-  //       "Material UI",
-  //     ],
-  //   },
-  // ];
-  
-  // export const education = [
-    {
-      id: 0,
-      img: WITLOGO,
-      school: "Walchand Institute of Technology, Solapur",
-      date: "2020 - 2024",
-      grade: "9.34 CGPA",
-      desc: "I completed my Bachelor's degree in Electronics Engineering with Honours in Artificial Intelligence and Machine Learning from WIT Solapur. I gained hands-on experience in software development, machine learning, and core electronics. I also participated in internships, technical activities, and sports representing the college.",
-      degree: "B.Tech in Electronics Engineering (Honours in AIML)",
-    },
-    {
-      id: 1,
-      img: IMSLOGO,
-      school: "Indian Model Junior College, Solapur",
-      date: "2020",
-      grade: "72%",
-      desc: "I completed my Class 12th with Physics, Chemistry, and Mathematics. Engaged in practical-based learning, group projects, and technical events that strengthened interest in engineering and technology.",
-      degree: "HSC (XII) - PCM + Computer Science",
-    },
-    {
-      id: 2,
-      img: IMSLOGO,
-      school: "Indian Model School, Akkalkot",
-      date: "2018",
-      grade: "87%",
-      desc: "I completed my Class 10th with excellent academic performance.Secured First Class with Distinction, demonstrating strong academic foundation.Actively participated in school-level science exhibitions and sports activities, building teamwork and leadership qualities.",
-      degree: "SSC (X)",
-    },
-  ];
-  
-  
-  export const projects = [
-    {
-      id: 0,
-      title: "Online Banking System",
-      description:
-        "The Online Banking System is a web-based application that allows users to manage their bank accounts, transfer funds, and view transaction history. It is built using Java Servlets, MySQL, and HTML/CSS/JavaScript.",
-      image: Banking,
-      tags: ["HTML", "CSS", "JavaScript", "JDBC", "Java", "Servlet"],
-      github: "https://github.com/ItsOmkara/Online-Banking-System",
-      webapp: "",
-    },
-    {
-      id: 1,
-      title: "Vaultmate(Money Manager)",
-      description:
-        "Built a full-stack personal finance management web application using Spring Boot, MySQL, React, and REST API.Implemented secure user registration with email verification and JWT-based authentication, along with a responsive React dashboard that enables users to easily manage their finances through CRUD operations, transaction history, and expense categorization. Additionally, optimized RESTful APIs ensure smooth client-server communication and seamless tracking and filtering of income and expenses.",
-      image: Vaultmate,
-      tags: ["React JS", "Springboot", "Java" ,"MySQL", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/ItsOmkara/VaultMate-Backend",
-      webapp: "https://vaultmate.netlify.app",
-    },
-    {
-      id: 2,
-      title: "CarRental Webapp",
-      description:
+// export const experiences = [
+//   {
+//     id: 0,
+//     img: webverseLogo,
+//     role: "Fullstack Developer",
+//     company: "Webverse Digital",
+//     date: "April 2024 - Present",
+//     desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+//     skills: [
+//       "HTML",
+//       "CSS",
+//       "JavaScript",
+//       "React JS",
+//       "TypeScript",
+//       "Node JS",
+//       "Tailwind CSS",
+//       "MongoDb",
+//       "Redux",
+//       " Next Js",
+//     ],
+//   },
+//   {
+//     id: 1,
+//     img: agcLogo,
+//     role: "Fullstack Engineer",
+//     company: "Agumentik Group of Companies",
+//     date: "July 2023 - March 2024",
+//     desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+//     skills: [
+//       "ReactJS",
+//       "Redux",
+//       "JavaScript",
+//       "Tailwind CSS",
+//       "HTML",
+//       "CSS",
+//       "SQL",
+//     ],
+//   },
+//   {
+//     id: 2,
+//     img: newtonschoolLogo,
+//     role: "Frontend Intern",
+//     company: "Newton School",
+//     date: "September 2021 - August 2022",
+//     desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+//     skills: [
+//       "HTML",
+//       "CSS",
+//       "Javascript",
+//       "Bootstrap",
+//       "Figma",
+//       "Material UI",
+//     ],
+//   },
+// ];
+
+export const education = [
+  {
+    id: 0,
+    img: WITLOGO,
+    school: "Walchand Institute of Technology, Solapur",
+    date: "2020 - 2024",
+    grade: "9.34 CGPA",
+    desc: "I completed my Bachelor's degree in Electronics Engineering with Honours in Artificial Intelligence and Machine Learning from WIT Solapur. I gained hands-on experience in software development, machine learning, and core electronics. I also participated in internships, technical activities, and sports representing the college.",
+    degree: "B.Tech in Electronics Engineering (Honours in AIML)",
+  },
+  {
+    id: 1,
+    img: IMSLOGO,
+    school: "Indian Model Junior College, Solapur",
+    date: "2020",
+    grade: "72%",
+    desc: "I completed my Class 12th with Physics, Chemistry, and Mathematics. Engaged in practical-based learning, group projects, and technical events that strengthened interest in engineering and technology.",
+    degree: "HSC (XII) - PCM + Computer Science",
+  },
+  {
+    id: 2,
+    img: IMSLOGO,
+    school: "Indian Model School, Akkalkot",
+    date: "2018",
+    grade: "87%",
+    desc: "I completed my Class 10th with excellent academic performance.Secured First Class with Distinction, demonstrating strong academic foundation.Actively participated in school-level science exhibitions and sports activities, building teamwork and leadership qualities.",
+    degree: "SSC (X)",
+  },
+];
+
+
+export const projects = [
+  {
+    id: 0,
+    title: "Online Banking System",
+    description:
+      "The Online Banking System is a web-based application that allows users to manage their bank accounts, transfer funds, and view transaction history. It is built using Java Servlets, MySQL, and HTML/CSS/JavaScript.",
+    image: Banking,
+    tags: ["HTML", "CSS", "JavaScript", "JDBC", "Java", "Servlet"],
+    github: "https://github.com/ItsOmkara/Online-Banking-System",
+    webapp: "",
+  },
+  {
+    id: 1,
+    title: "Vaultmate(Money Manager)",
+    description:
+      "Built a full-stack personal finance management web application using Spring Boot, MySQL, React, and REST API.Implemented secure user registration with email verification and JWT-based authentication, along with a responsive React dashboard that enables users to easily manage their finances through CRUD operations, transaction history, and expense categorization. Additionally, optimized RESTful APIs ensure smooth client-server communication and seamless tracking and filtering of income and expenses.",
+    image: Vaultmate,
+    tags: ["React JS", "Springboot", "Java", "MySQL", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/ItsOmkara/VaultMate-Backend",
+    webapp: "https://vaultmate.netlify.app",
+  },
+  {
+    id: 2,
+    title: "CarRental Webapp",
+    description:
       "RideEase is a sleek and user-friendly car rental platform designed to provide a seamless experience for users looking to rent vehicles. The website offers a diverse fleet of well-maintained cars, ensuring that customers can find the perfect vehicle for their needs.",
-      image: CarRental,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    },
-  ];  
+    image: CarRental,
+    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/codingmastr/Movie-Recommendation-App",
+    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+  },
+];  
